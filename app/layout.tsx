@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
    return (
       <html lang="en">
-         <body className={`${roboto.className} font-medium`}>
+         <body className={` relative`}>
             <Navbar />
             {children}
             <Footer />
